@@ -268,3 +268,56 @@ footer {
     }
 }
 
+
+/* IMAGE PLACEHOLDERS AND PROJECT LAYOUT */
+
+.project-page .content-with-media {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(240px, 1fr);
+    align-items: start;
+    gap: 26px;
+    margin-top: 18px;
+}
+
+.project-page .media-slot {
+    min-height: 205px;
+    aspect-ratio: 16 / 10;
+    border: 2px dashed var(--border);
+    border-radius: 8px;
+    background: #edf1f7;
+}
+
+/* SHORTER PROJECT SECTIONS */
+
+.project-page ul {
+    padding-left: 22px;
+    margin-bottom: 18px;
+}
+
+.project-page li {
+    margin-bottom: 12px;
+}
+
+.project-page .project-challenge {
+    margin-bottom: 20px;
+}
+
+.project-page .project-challenge h3 {
+    margin-top: 0;
+}
+
+.project-page .project-challenge ul {
+    margin-bottom: 0;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    .project-page .content-with-media {
+        grid-template-columns: 1fr;
+    }
+
+    .project-page .media-slot {
+        min-height: 180px;
+    }
+}
