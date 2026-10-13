@@ -200,3 +200,71 @@ footer {
         padding: 50px 0;
     }
 }
+
+
+/* ADDITIONAL PROJECT PAGE STYLES */
+
+.project-page .hero {
+    padding: 80px 0;
+}
+
+.project-page h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.project-page h3 {
+    font-size: 1.4rem;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.project-page section p {
+    max-width: 850px;
+    margin-bottom: 18px;
+}
+
+.project-page section {
+    padding: 60px 0;
+}
+
+.project-page h2 {
+    margin-bottom: 25px;
+}
+
+.project-page .subtitle {
+    margin-bottom: 20px;
+}
+
+/* MEDIA PLACEHOLDERS */
+
+.media-placeholder {
+    background: var(--alternate);
+    border: 2px dashed var(--border);
+    border-radius: 8px;
+    padding: 80px 20px;
+    margin: 25px 0;
+    text-align: center;
+    color: var(--muted);
+}
+
+/* PROJECT LINKS */
+
+.card a {
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* MOBILE PROJECT PAGE */
+
+@media (max-width: 768px) {
+    .project-page h1 {
+        font-size: 2.2rem;
+    }
+
+    .project-page section {
+        padding: 40px 0;
+    }
+}
+
