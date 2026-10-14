@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Autonomous Seed-Planting Robot Project">
+
+    <title>Autonomous Robot | Yusuf Hasan</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="robot-page">
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="container">
+            <a href="index.html#home" class="logo">
+                Yusuf Hasan
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INTRODUCTION -->
+        <section class="hero">
+            <div class="container">
+
+                <a href="index.html#projects">
+                    &larr; Back to Projects
+                </a>
+
+                <h1>Autonomous Seed-Planting Robot</h1>
+
+                <p class="subtitle">
+                    Arduino | C++ | Robotics | 3D Printing
+                </p>
+
+                <p>
+                    Team Project | ENES100 |
+                    University of Maryland
+                </p>
+
+                <div class="robot-layout">
+                    <div>
+                        <p>
+                            For ENES100, my team designed and built
+                            an autonomous seed-planting robot
+                            capable of navigating its environment
+                            and performing mechanical tasks.
+                        </p>
+
+                        <p>
+                            I contributed to the mechanical design,
+                            microcontroller communication, and
+                            autonomous navigation systems.
+                        </p>
+                    </div>
+
+                    <!-- Image: Completed robot -->
+                    <div class="robot-image"></div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- DESIGN PROCESS -->
+        <section class="alternate">
+            <div class="container">
+                <h2>Design Process</h2>
+
+                <p>
+                    Our first challenge was figuring out how
+                    to collect rocks and plant seeds deep
+                    within a substrate.
+                </p>
+
+                <div class="robot-layout">
+                    <div>
+                        <ul>
+                            <li>
+                                <strong>Brainstorming:</strong>
+                                We studied robots from previous
+                                classes for inspiration. As my
+                                teammates proposed ideas, I
+                                sketched different mechanisms,
+                                including an auger, claw,
+                                and waterwheel.
+                            </li>
+
+                            <li>
+                                <strong>System Design:</strong>
+                                We considered how each mechanism
+                                would store seeds, dig into the
+                                substrate, move loose material,
+                                and collect rocks.
+                            </li>
+
+                            <li>
+                                <strong>Final Selection:</strong>
+                                We chose the waterwheel because
+                                it addressed multiple requirements
+                                while remaining simple enough
+                                to implement with a single motor.
+                            </li>
+
+                            <li>
+                                <strong>Fabrication:</strong>
+                                We built the waterwheel using
+                                a 3D-printed housing and paddles,
+                                with a wooden dowel as its axle.
+                                Controlled rotation allowed the
+                                mechanism to dig, plant seeds,
+                                and hold collected material.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Image: Design sketches -->
+                    <div class="robot-image"></div>
+                </div>
+
+                <p>
+                    This process taught me how to evaluate
+                    design trade-offs and develop a mechanism
+                    that could accomplish multiple tasks
+                    without unnecessary complexity.
+                </p>
+
+                <!-- Image: Finished waterwheel -->
+                <div class="robot-image robot-image-wide"></div>
+
+            </div>
+        </section>
+
+        <!-- TECHNICAL CHALLENGES -->
+        <section>
+            <div class="container">
+                <h2>Technical Challenges</h2>
+
+                <h3>1. Troubleshooting Wireless Communication</h3>
+
+                <div class="robot-layout">
+                    <div>
+                        <ul>
+                            <li>
+                                <strong>Problem:</strong>
+                                Our robot relied on wireless
+                                communication to receive
+                                coordinates from an overhead
+                                camera system. However, eight
+                                Wi-Fi modules failed to connect
+                                using our Arduino Mega.
+                            </li>
+
+                            <li>
+                                <strong>Solution:</strong>
+                                We tested an Arduino Uno,
+                                which successfully connected.
+                                We used the Uno to receive
+                                wireless data and pass it
+                                to the Mega.
+                            </li>
+
+                            <li>
+                                <strong>My Contribution:</strong>
+                                A teammate designed the
+                                communication protocol, and
+                                I adapted our existing code
+                                to use the data transferred
+                                between the two boards.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Image: Microcontrollers / wiring -->
+                    <div class="robot-image"></div>
+                </div>
+
+                <p>
+                    <strong>What I learned:</strong>
+                    How to work around hardware limitations
+                    and integrate new components into
+                    an existing system.
+                </p>
+
+                <h3>2. Redesigning Maze Navigation</h3>
+
+                <div class="robot-layout">
+                    <div>
+                        <ul>
+                            <li>
+                                <strong>Problem:</strong>
+                                Our original maze-navigation
+                                algorithm relied on ultrasonic
+                                sensors and wall-following,
+                                but failed to navigate
+                                the maze reliably.
+                            </li>
+
+                            <li>
+                                <strong>Solution:</strong>
+                                I proposed using the robot's
+                                position from the overhead
+                                navigation system to guide
+                                its movement.
+                            </li>
+
+                            <li>
+                                <strong>Implementation:</strong>
+                                Depending on whether the robot
+                                was near the top or bottom
+                                of the maze, it would choose
+                                different turning directions
+                                and check for obstacles
+                                before proceeding.
+                            </li>
+
+                            <li>
+                                <strong>Result:</strong>
+                                The new approach worked,
+                                allowing the robot to
+                                navigate the maze and
+                                reach its goal.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Image: Maze or navigation diagram -->
+                    <div class="robot-image"></div>
+                </div>
+
+                <p>
+                    <strong>What I learned:</strong>
+                    The importance of reconsidering an
+                    algorithm when its initial assumptions
+                    don't work in practice.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- OUTCOME -->
+        <section class="alternate">
+            <div class="container">
+                <h2>Outcome and Reflections</h2>
+
+                <p>
+                    Our team successfully built the waterwheel
+                    mechanism, integrated the new communication
+                    setup, and implemented a navigation
+                    strategy that allowed the robot to
+                    reach its goal.
+                </p>
+
+                <p>
+                    This project strengthened my experience
+                    with embedded programming, mechanical
+                    design, debugging, and collaborative
+                    problem-solving. I learned how to
+                    evaluate competing designs, adapt to
+                    hardware challenges, and develop
+                    practical solutions as part of a team.
+                </p>
+
+                <!-- Image: Final robot demonstration -->
+                <div class="robot-image robot-image-wide"></div>
+
+            </div>
+        </section>
+
+        <!-- RETURN -->
+        <section>
+            <div class="container">
+                <a href="index.html#projects">
+                    &larr; Back to Projects
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Yusuf Hasan.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
