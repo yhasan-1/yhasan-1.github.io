@@ -321,3 +321,89 @@ footer {
         min-height: 180px;
     }
 }
+
+
+/* AUTONOMOUS ROBOT PROJECT PAGE */
+
+.robot-page .hero {
+    padding: 80px 0;
+}
+
+.robot-page h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.robot-page h2 {
+    margin-bottom: 25px;
+}
+
+.robot-page h3 {
+    font-size: 1.4rem;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.robot-page section {
+    padding: 60px 0;
+}
+
+.robot-page p {
+    max-width: 850px;
+    margin-bottom: 18px;
+}
+
+.robot-page ul {
+    padding-left: 22px;
+    margin-bottom: 20px;
+}
+
+.robot-page li {
+    margin-bottom: 14px;
+}
+
+/* TEXT AND IMAGE LAYOUT */
+
+.robot-layout {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px;
+    align-items: start;
+    margin: 25px 0;
+}
+
+.robot-image {
+    min-height: 220px;
+    background: #edf1f7;
+    border: 2px dashed var(--border);
+    border-radius: 8px;
+    aspect-ratio: 16 / 10;
+}
+
+.robot-image-wide {
+    width: 100%;
+    max-width: 700px;
+    margin: 25px 0;
+}
+
+/* MOBILE LAYOUT */
+
+@media (max-width: 768px) {
+
+    .robot-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .robot-page h1 {
+        font-size: 2.2rem;
+    }
+
+    .robot-page section {
+        padding: 40px 0;
+    }
+
+    .robot-image {
+        min-height: 180px;
+    }
+}
+
