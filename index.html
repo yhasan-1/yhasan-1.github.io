@@ -14,7 +14,7 @@
 
     <!-- NAVIGATION -->
     <header>
-        <nav class="container">
+        <nav class="container" aria-label="Main navigation">
             <a href="#home" class="logo">Yusuf Hasan</a>
 
             <ul class="nav-links">
@@ -83,7 +83,8 @@
 
                     <!-- WAVES IN AIR -->
                     <article class="card">
-                        <!-- TODO: Add game screenshot -->
+                        <!-- Displays the actual screenshot when that image is uploaded. -->
+                        <div class="project-card-media" aria-hidden="true" style="background-image: url('assets/waves-in-air/waves-cover.png');"></div>
 
                         <h3>Waves in Air</h3>
 
@@ -108,6 +109,7 @@
 
                     <!-- AUTONOMOUS ROBOT -->
                     <article class="card">
+                        <div class="project-card-media" aria-hidden="true" style="background-image: url('assets/robot/robot-cover.jpg');"></div>
                         <h3>Autonomous Seed-Planting Robot</h3>
                     
                         <p>
@@ -128,26 +130,22 @@
                         </a>
                     </article>
 
-                    <!-- COMPILER PROJECT -->
+                    <!-- PROGRAMMING LANGUAGES COURSEWORK -->
                     <article class="card">
-                        <h3>Lexer, Parser, and Interpreter</h3>
-
+                        <h3>Programming Languages &amp; Memory Management</h3>
                         <p>
-                            Built a lexer, parser, and interpreter
-                            for my programming languages coursework.
-                            The project involved breaking down
-                            language-processing tasks, handling
-                            different cases, and integrating
-                            the individual components.
+                            In CMSC330, I implemented language-processing components in OCaml,
+                            including a lexer, parser, evaluator, type checker, and stack-machine
+                            compiler. I also implemented garbage-collection algorithms in Rust,
+                            exploring different ways to manage memory.
                         </p>
-
-                        <p class="tags">
-                            Programming Languages | CMSC330
-                        </p>
+                        <p class="tags">OCaml | Rust | CMSC330</p>
+                        <!-- Coursework solutions remain private under course sharing rules. -->
                     </article>
 
                     <!-- TRANSPORTATION PROJECT -->
                     <article class="card">
+                        <div class="project-card-media" aria-hidden="true" style="background-image: url('assets/other/denver-transit-map.png');"></div>
                         <h3>Denver Sustainable Transportation Design</h3>
 
                         <p>
@@ -256,7 +254,7 @@
                        target="_blank"
                        rel="noopener noreferrer">GitHub</a>
 
-                    <!-- TODO: Add resume PDF link -->
+                    <!-- When ready, add a link to assets/other/resume.pdf here. -->
                 </div>
             </div>
         </section>
