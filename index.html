@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Yusuf Hasan's engineering portfolio">
+    <meta name="description" content="Yusuf Hasan's portfolio: game development, embedded systems, and engineering projects at the University of Maryland.">
     <title>Yusuf Hasan | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -79,14 +79,14 @@
         <section id="projects" class="alternate">
             <div class="container">
                 <h2>Featured Projects</h2>
-                <p class="section-intro">A closer look at two projects where I designed, built, and debugged systems from concept to working result.</p>
+                <p class="section-intro">Two projects I spent the most time building, testing, and improving.</p>
 
                 <div class="card-grid featured-grid">
 
                     <!-- WAVES IN AIR -->
                     <article class="card">
                         <!-- Displays the actual screenshot when that image is uploaded. -->
-                        <div class="project-card-media" aria-hidden="true" style="background-image: url('assets/waves-in-air/waves-cover.png');"></div>
+                        <div class="project-card-art" aria-hidden="true"><span class="project-art-glyph">&#9993;</span><span class="project-art-lines"></span></div>
 
                         <h3>Waves in Air</h3>
 
@@ -111,8 +111,11 @@
 
                     <!-- AUTONOMOUS ROBOT -->
                     <article class="card">
-                        <div class="project-card-media" aria-hidden="true" style="background-image: url('assets/robot/robot-cover.jpg');"></div>
-                        <h3>Autonomous Seed-Planting Robot</h3>
+                        <figure class="project-card-figure">
+                            <img src="assets/robot/robot-cover.jpg" alt="SEED-E robot with tracked wheels and seed hopper" loading="lazy" width="900" height="1200">
+                            <figcaption>SEED-E prototype with its seed hopper.</figcaption>
+                        </figure>
+                        <h3>SEED-E: Autonomous Seed-Planting Robot</h3>
                     
                         <p>
                             Designed and built an autonomous robot as part of
@@ -140,12 +143,12 @@
         <section id="other-projects">
             <div class="container">
                 <h2>Other Projects</h2>
-                <p class="section-intro">Additional work in programming languages, memory management, and sustainable transportation design.</p>
+                <p class="section-intro">Coursework and team projects in software and sustainable transportation.</p>
                 <div class="card-grid other-project-grid">
 
                     <!-- PROGRAMMING LANGUAGES COURSEWORK -->
                     <article class="card">
-                        <div class="project-card-media" aria-hidden="true" style="background-image: url('assets/other/programming-languages.png');"></div>
+                        
                         <h3>Programming Languages &amp; Memory Management</h3>
                         <p>
                             In CMSC330, I implemented language-processing components in OCaml,
@@ -159,7 +162,7 @@
 
                     <!-- TRANSPORTATION PROJECT -->
                     <article class="card">
-                        <div class="project-card-media" aria-hidden="true" style="background-image: url('assets/other/denver-transit-map.png');"></div>
+                        
                         <h3>Denver Sustainable Transportation Design</h3>
 
                         <p>
@@ -181,82 +184,132 @@
         </section>
 
         <!-- EXPERIENCE -->
-        <section id="experience">
+        <section id="experience" class="alternate">
             <div class="container">
                 <h2>Experience</h2>
+                <div class="experience-stack">
+                    <article class="card experience-entry">
+                        <figure class="experience-visual">
+                            <img src="assets/coffee-club/coffee-at-umd-logo.png"
+                                 alt="Coffee @ UMD turtle logo" width="120" height="120" loading="lazy">
+                            <figcaption>Coffee @ UMD</figcaption>
+                        </figure>
+                        <div class="experience-copy">
+                            <h3>Treasurer</h3>
+                            <p class="experience-organization">Coffee @ UMD</p>
+                            <p>
+                                Managed budgeting and submitted funding and payment requests
+                                for a student organization with an annual budget of approximately
+                                $20,000. Coordinated coffee socials serving hundreds of students,
+                                and led projects including an inventory database and mobile coffee cart.
+                            </p>
+                            <p class="experience-secondary-role">
+                                Later served as Analytics Team Lead, looking at engagement trends
+                                and sharing findings with other club teams.
+                            </p>
+                            <div class="tag-list" aria-label="Related skills"><a class="skill-tag" href="#skill-budgeting">Budgeting</a>
+                            <a class="skill-tag" href="#skill-event-planning">Event Planning</a>
+                            <a class="skill-tag" href="#skill-project-coordination">Project Coordination</a>
+                            <a class="skill-tag" href="#skill-analytics">Analytics</a></div>
+                        </div>
+                    </article>
 
-                <div class="card experience-with-logo">
-                    <img
-                        class="experience-logo"
-                        src="assets/coffee-club/coffee-at-umd-logo.png"
-                        alt="Coffee @ UMD logo"
-                        width="88"
-                        height="88"
-                        loading="lazy"
-                    >
-                    <div class="experience-details">
-                        <h3>Treasurer</h3>
-                        <p class="experience-organization">Coffee @ UMD</p>
-                        <p>
-                            Managed budgeting and submitted funding and payment requests
-                            for a student organization with an annual budget of approximately
-                            $20,000. Coordinated event logistics for coffee socials serving
-                            hundreds of students and led projects including an inventory
-                            database and a mobile coffee cart.
-                        </p>
-                        <p class="experience-secondary-role">
-                            Later served as Analytics Team Lead, working on engagement
-                            trends and reporting for other club teams.
-                        </p>
-                    </div>
+                    <article class="card experience-entry">
+                        <figure class="experience-visual">
+                            <img src="assets/nhlbi-logo.png"
+                                 alt="National Heart, Lung, and Blood Institute logo" width="120" height="120" loading="lazy">
+                            <figcaption>NIH / NHLBI</figcaption>
+                        </figure>
+                        <div class="experience-copy">
+                            <h3>Research Intern</h3>
+                            <p class="experience-organization">National Institutes of Health (NHLBI)</p>
+                            <p>
+                                Worked with research data in R and created Kaplan-Meier survival
+                                curves. I learned unfamiliar data-analysis tools and collaborated
+                                with researchers to check and present my work.
+                            </p>
+                            <div class="tag-list" aria-label="Related skills"><a class="skill-tag" href="#skill-r">R</a>
+                            <a class="skill-tag" href="#skill-data-analysis">Data Analysis</a>
+                            <a class="skill-tag" href="#skill-survival-analysis">Survival Analysis</a></div>
+                        </div>
+                    </article>
+
+                    <article class="card experience-entry">
+                        <figure class="experience-visual">
+                            <img src="assets/umd-engineering-logo.png"
+                                 alt="University of Maryland Engineering logo" width="120" height="120" loading="lazy">
+                            <figcaption>UMD Engineering</figcaption>
+                        </figure>
+                        <div class="experience-copy">
+                            <h3>Undergraduate Teaching Fellow</h3>
+                            <p class="experience-organization">University of Maryland, ENEE101</p>
+                            <p>
+                                Helped students work through introductory engineering concepts
+                                and assignments, explaining technical material in a way that
+                                made it easier to understand.
+                            </p>
+                            <div class="tag-list" aria-label="Related skills"><a class="skill-tag" href="#skill-teaching">Teaching</a>
+                            <a class="skill-tag" href="#skill-communication">Communication</a></div>
+                        </div>
+                    </article>
                 </div>
-
-                <div class="card">
-                    <h3>Research Intern</h3>
-                    <p>National Institutes of Health (NHLBI)</p>
-
-                    <p>
-                        Worked with research data using R and
-                        performed survival analysis using
-                        Kaplan-Meier curves. I learned unfamiliar
-                        data-analysis tools and collaborated with
-                        researchers to develop my technical skills.
-                    </p>
-                </div>
-
-                <div class="card">
-                    <h3>Undergraduate Teaching Fellow</h3>
-                    <p>University of Maryland</p>
-
-                    <p>
-                        Supported students in ENEE101, helping
-                        explain introductory engineering concepts
-                        and strengthening my communication and
-                        teaching skills.
-                    </p>
-                </div>
+                <p class="tag-hint">Select an experience tag to find the matching skill below.</p>
             </div>
         </section>
 
         <!-- SKILLS -->
-        <section id="skills" class="alternate">
+        <section id="skills">
             <div class="container">
-                <h2>Technical Skills</h2>
-
-                <div class="card">
-                    <h3>Programming Languages</h3>
-                    <p>
-                        Java, Python, C, C++, GDScript,
-                        R, Rust, Verilog, OCaml, MATLAB, JavaScript
-                    </p>
-                </div>
-
-                <div class="card">
-                    <h3>Tools & Technologies</h3>
-                    <p>
-                        Git, GitHub, Godot, Arduino, Linux,
-                        gdb, make, valgrind
-                    </p>
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="card skill-group">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-list">
+                            <span class="skill-chip" id="skill-java">Java</span>
+                            <span class="skill-chip" id="skill-python">Python</span>
+                            <span class="skill-chip" id="skill-c">C</span>
+                            <span class="skill-chip" id="skill-cpp">C++</span>
+                            <span class="skill-chip" id="skill-gdscript">GDScript</span>
+                            <span class="skill-chip" id="skill-r">R</span>
+                            <span class="skill-chip" id="skill-rust">Rust</span>
+                            <span class="skill-chip" id="skill-verilog">Verilog</span>
+                            <span class="skill-chip" id="skill-ocaml">OCaml</span>
+                            <span class="skill-chip" id="skill-matlab">MATLAB</span>
+                            <span class="skill-chip" id="skill-javascript">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="card skill-group">
+                        <h3>Tools &amp; Technologies</h3>
+                        <div class="skill-list">
+                            <span class="skill-chip" id="skill-git">Git</span>
+                            <span class="skill-chip" id="skill-github">GitHub</span>
+                            <span class="skill-chip" id="skill-godot">Godot</span>
+                            <span class="skill-chip" id="skill-arduino">Arduino</span>
+                            <span class="skill-chip" id="skill-linux">Linux</span>
+                            <span class="skill-chip" id="skill-gdb">gdb</span>
+                            <span class="skill-chip" id="skill-make">make</span>
+                            <span class="skill-chip" id="skill-valgrind">valgrind</span>
+                            <span class="skill-chip" id="skill-3d-printing">3D Printing</span>
+                        </div>
+                    </div>
+                    <div class="card skill-group">
+                        <h3>Data &amp; Analysis</h3>
+                        <div class="skill-list">
+                            <span class="skill-chip" id="skill-data-analysis">Data Analysis</span>
+                            <span class="skill-chip" id="skill-survival-analysis">Survival Analysis</span>
+                            <span class="skill-chip" id="skill-analytics">Analytics</span>
+                        </div>
+                    </div>
+                    <div class="card skill-group">
+                        <h3>Leadership &amp; Communication</h3>
+                        <div class="skill-list">
+                            <span class="skill-chip" id="skill-budgeting">Budgeting</span>
+                            <span class="skill-chip" id="skill-event-planning">Event Planning</span>
+                            <span class="skill-chip" id="skill-project-coordination">Project Coordination</span>
+                            <span class="skill-chip" id="skill-teaching">Teaching</span>
+                            <span class="skill-chip" id="skill-communication">Communication</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
