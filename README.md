@@ -1,26 +1,16 @@
-# Yusuf Hasan — portfolio website
+# Yusuf Hasan's Portfolio
 
-Personal portfolio hosted with GitHub Pages. It uses plain HTML/CSS, so no build tools are required.
+This repository contains the code for [my portfolio website](https://yhasan-1.github.io/). I'm a Computer Engineering student at the University of Maryland, and I use the site to share projects I've worked on in game development, robotics, and software.
 
-## Pages
-- `index.html` — projects, experience, skills and contact information
-- `waves-in-air.html` — Honors Humanities Keystone game
-- `autonomous-robot.html` — ENES100 robot design and programming
-- `style.css` — sitewide styling
+## Projects
 
-## Adding images and media
-See [MEDIA-CHECKLIST.md](MEDIA-CHECKLIST.md). The page already references the named assets; add your own files to the listed paths. Until then, placeholder panels will remain blank.
+- **[Waves in Air](https://yhasan-1.github.io/waves-in-air.html):** A narrative puzzle game I made for my Honors Humanities Keystone project.
+- **[Autonomous Seed-Planting Robot](https://yhasan-1.github.io/autonomous-robot.html):** A team project where I worked on mechanical design, Arduino communication, and robot navigation.
 
-## Editing safely
-Work on a separate branch, review the changes through a pull request, then merge to `main` to publish.
+I also have projects in programming languages, memory management, and sustainable transportation on the [homepage](https://yhasan-1.github.io/#projects).
 
-## Unfinished follow-ups
-- Add real project media, optional game/narrative links, and resume PDF
-- Consider game jam feature after assessing the finished game
-- Test with actual images on narrow/mobile screens
-- Do not publish copyrighted coursework solutions
+## About the Website
 
-## Design rationale
-- [Nielsen Norman Group: How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/) — scannable writing, headings and short summaries.
-- [Nielsen Norman Group: UX Design Portfolios](https://www.nngroup.com/articles/ux-design-portfolios/) — project context, contributions, decisions and outcomes.
-- [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/) — keyboard navigation, focus and readable mobile layouts.
+I built the site with HTML and CSS and host it on GitHub Pages. I update it as I finish projects and collect more screenshots and demonstrations.
+
+For the list of planned project images and filenames, see [MEDIA-CHECKLIST.md](MEDIA-CHECKLIST.md).
