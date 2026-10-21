@@ -1,16 +1,29 @@
-# Yusuf Hasan's Portfolio
+# Yusuf Hasan | Portfolio
 
-This repository contains the code for [my portfolio website](https://yhasan-1.github.io/). I'm a Computer Engineering student at the University of Maryland, and I use the site to share projects I've worked on in game development, robotics, and software.
+**Website:** [yhasan-1.github.io](https://yhasan-1.github.io/)
+
+My project portfolio, built with HTML and CSS and hosted on GitHub Pages.
 
 ## Projects
 
-- **[Waves in Air](https://yhasan-1.github.io/waves-in-air.html):** A narrative puzzle game I made for my Honors Humanities Keystone project.
-- **[Autonomous Seed-Planting Robot](https://yhasan-1.github.io/autonomous-robot.html):** A team project where I worked on mechanical design, Arduino communication, and robot navigation.
+### Featured
 
-I also have projects in programming languages, memory management, and sustainable transportation on the [homepage](https://yhasan-1.github.io/#projects).
+**[Waves in Air](https://yhasan-1.github.io/waves-in-air.html)**  
+A narrative puzzle game made in Godot for my Honors Humanities Keystone project. I handled the research, writing, art, and development. The game explores miscommunication through dialogue and environmental puzzles.
 
-## About the Website
+**[Autonomous Seed-Planting Robot](https://yhasan-1.github.io/autonomous-robot.html)**  
+An ENES100 team project. I worked on mechanical design, adapted code for communication between two Arduino boards, and proposed the navigation approach that got the robot through the maze.
 
-I built the site with HTML and CSS and host it on GitHub Pages. I update it as I finish projects and collect more screenshots and demonstrations.
+### Other work
 
-For the list of planned project images and filenames, see [MEDIA-CHECKLIST.md](MEDIA-CHECKLIST.md).
+- **Programming Languages and Memory Management:** Lexer, parser, evaluator, type checker, and stack-machine compiler in OCaml, plus garbage collection algorithms in Rust.
+- **Denver Sustainable Transportation Design:** Analyzed fleet electrification and designed a proposed metro and high-speed rail system with a team.
+
+## Site files
+
+- `index.html`: Homepage, project summaries, experience, and skills
+- `waves-in-air.html` and `autonomous-robot.html`: Project write-ups
+- `style.css`: Layout and styling
+- [`MEDIA-CHECKLIST.md`](MEDIA-CHECKLIST.md): Image and video filenames for the site
+
+There is no build step. Open `index.html` in a browser to view the site locally.
