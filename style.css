@@ -148,3 +148,27 @@ footer p { margin: 0; }
 .other-project-grid .card {
   padding: 22px;
 }
+
+
+/* Robot fabrication photographs with descriptive captions. */
+.robot-page .robot-photo { margin: 0; min-width: 0; }
+.robot-page .robot-photo .robot-image { background-size: contain; }
+.robot-page .robot-photo figcaption {
+    font-size: .88rem;
+    color: var(--muted);
+    line-height: 1.5;
+    margin-top: 8px;
+}
+.robot-page .robot-photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap: 18px;
+    margin: 22px 0 0;
+    max-width: 840px;
+}
+.robot-page .robot-photo-gallery .robot-image { min-height: 270px; }
+.robot-page .robot-technical-text { max-width: 840px; }
+@media (max-width: 640px) {
+    .robot-page .robot-photo-gallery { grid-template-columns: 1fr; }
+    .robot-page .robot-photo-gallery .robot-image { min-height: 220px; }
+}
