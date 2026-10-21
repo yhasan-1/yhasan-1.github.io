@@ -1,26 +1,29 @@
-# Yusuf Hasan — portfolio website
+# Yusuf Hasan | Portfolio
 
-Personal portfolio hosted with GitHub Pages. It uses plain HTML/CSS, so no build tools are required.
+**Website:** [yhasan-1.github.io](https://yhasan-1.github.io/)
 
-## Pages
-- `index.html` — projects, experience, skills and contact information
-- `waves-in-air.html` — Honors Humanities Keystone game
-- `autonomous-robot.html` — ENES100 robot design and programming
-- `style.css` — sitewide styling
+My project portfolio, built with HTML and CSS and hosted on GitHub Pages.
 
-## Adding images and media
-See [MEDIA-CHECKLIST.md](MEDIA-CHECKLIST.md). The page already references the named assets; add your own files to the listed paths. Until then, placeholder panels will remain blank.
+## Projects
 
-## Editing safely
-Work on a separate branch, review the changes through a pull request, then merge to `main` to publish.
+### Featured
 
-## Unfinished follow-ups
-- Add real project media, optional game/narrative links, and resume PDF
-- Consider game jam feature after assessing the finished game
-- Test with actual images on narrow/mobile screens
-- Do not publish copyrighted coursework solutions
+**[Waves in Air](https://yhasan-1.github.io/waves-in-air.html)**  
+A narrative puzzle game made in Godot for my Honors Humanities Keystone project. I handled the research, writing, art, and development. The game explores miscommunication through dialogue and environmental puzzles.
 
-## Design rationale
-- [Nielsen Norman Group: How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/) — scannable writing, headings and short summaries.
-- [Nielsen Norman Group: UX Design Portfolios](https://www.nngroup.com/articles/ux-design-portfolios/) — project context, contributions, decisions and outcomes.
-- [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/) — keyboard navigation, focus and readable mobile layouts.
+**[Autonomous Seed-Planting Robot](https://yhasan-1.github.io/autonomous-robot.html)**  
+An ENES100 team project. I worked on mechanical design, adapted code for communication between two Arduino boards, and proposed the navigation approach that got the robot through the maze.
+
+### Other work
+
+- **Programming Languages and Memory Management:** Lexer, parser, evaluator, type checker, and stack-machine compiler in OCaml, plus garbage collection algorithms in Rust.
+- **Denver Sustainable Transportation Design:** Analyzed fleet electrification and designed a proposed metro and high-speed rail system with a team.
+
+## Site files
+
+- `index.html`: Homepage, project summaries, experience, and skills
+- `waves-in-air.html` and `autonomous-robot.html`: Project write-ups
+- `style.css`: Layout and styling
+- [`MEDIA-CHECKLIST.md`](MEDIA-CHECKLIST.md): Image and video filenames for the site
+
+There is no build step. Open `index.html` in a browser to view the site locally.
