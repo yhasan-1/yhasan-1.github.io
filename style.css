@@ -125,3 +125,26 @@ footer p { margin: 0; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+/* Keep detailed case studies prominent without hiding other work. */
+.section-intro {
+  color: var(--muted);
+  max-width: 720px;
+  margin-top: -12px;
+  margin-bottom: 25px;
+}
+.featured-grid > .card {
+  border-color: #ccd8e8;
+  box-shadow: 0 5px 22px rgba(25,45,70,.055);
+}
+.featured-grid .project-card-media {
+  min-height: 200px;
+}
+.other-project-grid .project-card-media {
+  min-height: 100px;
+  aspect-ratio: 16 / 7;
+  margin-bottom: 17px;
+}
+.other-project-grid .card {
+  padding: 22px;
+}
