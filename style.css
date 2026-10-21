@@ -260,3 +260,18 @@ footer p { margin: 0; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+/* Project technologies use the same linked tags as experience entries. */
+.card-grid .project-tag-list {
+  margin-top: auto;
+  padding-top: 14px;
+}
+.card-grid .project-tag-list + a {
+  margin-top: 17px;
+}
+.project-detail-tags {
+  margin: 14px 0 22px;
+}
+.project-detail-tags .skill-tag {
+  white-space: nowrap;
+}
