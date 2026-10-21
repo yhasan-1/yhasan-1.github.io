@@ -11,7 +11,7 @@ My project portfolio, built with HTML and CSS and hosted on GitHub Pages.
 **[Waves in Air](https://yhasan-1.github.io/waves-in-air.html)**  
 A narrative puzzle game made in Godot for my Honors Humanities Keystone project. I handled the research, writing, art, and development. The game explores miscommunication through dialogue and environmental puzzles.
 
-**[Autonomous Seed-Planting Robot](https://yhasan-1.github.io/autonomous-robot.html)**  
+**[SEED-E: Autonomous Seed-Planting Robot](https://yhasan-1.github.io/autonomous-robot.html)**  
 An ENES100 team project. I worked on mechanical design, adapted code for communication between two Arduino boards, and proposed the navigation approach that got the robot through the maze.
 
 ### Other work
