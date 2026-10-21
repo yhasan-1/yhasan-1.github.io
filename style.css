@@ -172,3 +172,35 @@ footer p { margin: 0; }
     .robot-page .robot-photo-gallery { grid-template-columns: 1fr; }
     .robot-page .robot-photo-gallery .robot-image { min-height: 220px; }
 }
+
+/* Experience entries with organization logos */
+.experience-with-logo {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  align-items: start;
+  gap: 22px;
+}
+.experience-logo {
+  display: block;
+  width: 88px;
+  height: 88px;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: #f7e6d7;
+}
+.experience-details { min-width: 0; }
+.experience-organization { color: var(--muted); font-weight: 600; }
+#experience .experience-secondary-role {
+  color: var(--muted);
+  font-size: .93rem;
+  margin-top: 14px;
+}
+@media (max-width: 480px) {
+  .experience-with-logo {
+    grid-template-columns: 64px minmax(0, 1fr);
+    gap: 14px;
+  }
+  .experience-logo { width: 64px; height: 64px; }
+}
