@@ -1,6 +1,6 @@
 # Portfolio media checklist
 
-The HTML already references these filenames. Place your own images in the exact folders listed below. You do not need to send the media to ChatGPT. Blank placeholders remain visible until the files are present.
+The HTML already references these filenames. Place your own images in the exact folders listed below. You do not need to send the media to ChatGPT. SEED-E photos and organization logos are already present in the repository. Unavailable Waves in Air screenshots are not displayed until they are added.
 
 ## Waves in Air
 - [ ] `assets/waves-in-air/waves-cover.png` — main environment / cover (also on homepage)
@@ -13,17 +13,22 @@ The HTML already references these filenames. Place your own images in the exact 
 - [ ] `assets/waves-in-air/waves-narrative.pdf` — optional narrative write-up
 - [ ] Game build — optional GitHub Release download (not committed as code)
 
-## Autonomous robot
-- [ ] `assets/robot/robot-cover.jpg` — mostly assembled robot (also on homepage); web-optimized in the ZIP
-- [ ] `assets/robot/robot-chassis.jpg` — 3D-printed lower chassis; web-optimized in the ZIP
-- [ ] `assets/robot/robot-drive-shaft.jpg` — printed drive shaft; web-optimized in the ZIP
-- [ ] `assets/robot/robot-drive-shaft-fit.jpg` — testing drive-shaft fit; web-optimized in the ZIP
+## SEED-E (ENES100 robot)
+- [x] `assets/robot/robot-cover.jpg` — mostly assembled robot (also on homepage); web-optimized in the ZIP
+- [x] `assets/robot/robot-chassis.jpg` — 3D-printed lower chassis; web-optimized in the ZIP
+- [x] `assets/robot/robot-drive-shaft.jpg` — printed drive shaft; web-optimized in the ZIP
+- [x] `assets/robot/robot-drive-shaft-fit.jpg` — testing drive-shaft fit; web-optimized in the ZIP
 - [ ] Optional: original design sketches (not provided)
 - [ ] Optional: additional photo of completed waterwheel
 - [ ] Optional: microcontroller wiring photo
 - [ ] Optional: maze-navigation diagram
 - [ ] Optional: additional final robot photo
 - [ ] `assets/robot/robot-demo.mp4` — optional demonstration video
+
+## Experience logos
+- [x] `assets/coffee-club/coffee-at-umd-logo.png` (Coffee @ UMD)
+- [x] `assets/nhlbi-logo.png` (NHLBI)
+- [x] `assets/umd-engineering-logo.png` (UMD Engineering)
 
 ## Other
 - [ ] `assets/other/programming-languages.png` — own conceptual diagram, NOT public assignment solutions
