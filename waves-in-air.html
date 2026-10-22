@@ -27,159 +27,87 @@
     </header>
 
     <main id="main-content">
-        <!-- PROJECT INTRODUCTION -->
         <section class="hero">
             <div class="container">
-                <a href="index.html#projects">&larr; Back to Projects</a>
+                <a class="project-back-link" href="index.html#projects">← Back to Projects</a>
                 <h1>Waves in Air</h1>
-                <p class="subtitle">Godot | GDScript | Solo Project | Three Months</p>
-                <p>
-                    A narrative-focused puzzle game exploring how miscommunication
-                    causes conflict and hinders the creation of a community.
+                <p class="subtitle">Solo project | Godot and GDScript | Three months</p>
+                <div class="tag-list project-detail-tags" aria-label="Related skills and techniques">
+                            <a class="skill-tag" href="index.html#skill-godot">Godot</a>
+                            <a class="skill-tag" href="index.html#skill-gdscript">GDScript</a>
+                            <a class="skill-tag" href="index.html#skill-event-driven">Event-Driven Programming</a>
+                            <a class="skill-tag" href="index.html#skill-game-design">Game Design</a>
+                            <a class="skill-tag" href="index.html#skill-pathfinding">Pathfinding</a>
+                        </div>
+                <p class="showcase-lead">
+                    A narrative puzzle game about communication, conflict, and community.
+                    Players deliver letters between people and solve environmental puzzles along the way.
                 </p>
-
-                <div class="content-with-media">
-                    <div>
-                        <h2>Overview</h2>
-                        <p>
-                            For my University of Maryland Honors Humanities Keystone Project,
-                            I was asked to combine research and art to address an issue of my choosing.
-                            I created a game to help players reflect on the importance of communication.
-                        </p>
-                        <p>
-                            Players take on the role of a courier, delivering letters and solving puzzles
-                            involving communication barriers. As the sole developer, I handled the research,
-                            concept art, narrative, game design, and implementation.
-                        </p>
-                    </div>
-                    <!-- Media planned: assets/waves-in-air/waves-cover.png. Add an image and caption when available. -->
-                </div>
+                <p>
+                    Made for my UMD Honors Humanities Keystone project. I handled the research,
+                    writing, concept art, puzzle design, and development.
+                </p>
             </div>
         </section>
 
-        <!-- GAMEPLAY -->
         <section class="alternate">
             <div class="container">
-                <h2>Turning Communication into Gameplay</h2>
-                <p>I wanted players to think about communication through their actions, not just dialogue.</p>
-                <div class="content-with-media">
-                    <div>
-                        <h3>The Radio Station Puzzle</h3>
-                        <p>
-                            The player approaches a neglected radio station to deliver a letter,
-                            but the distressed operator turns them away.
-                        </p>
-                        <ul>
-                            <li><strong>Observe:</strong> Dried flower beds and overgrown vines suggest that the station was once cared for.</li>
-                            <li><strong>Respond:</strong> The player waters the flowers and clears the vines to provide some comfort.</li>
-                            <li><strong>Resolve:</strong> The operator becomes more receptive and accepts the letter.</li>
-                        </ul>
-                        <p>
-                            I designed this puzzle to show that communication also means understanding
-                            someone's circumstances and responding to their needs.
-                        </p>
-                    </div>
-                    <!-- Media planned: assets/waves-in-air/waves-radio-station.png. Add an image and caption when available. -->
-                </div>
+                <h2>Gameplay</h2>
+                <h3>The Radio Station</h3>
+                <p>
+                    A radio operator refuses a letter from the player. Outside the station,
+                    dried flowers and overgrown vines hint at how the place has been neglected.
+                    Watering the flowers and clearing the vines makes the operator receptive to the delivery.
+                    The puzzle explores communication through actions rather than dialogue alone.
+                </p>
+                <!-- Add the radio station screenshot here when available: assets/waves-in-air/waves-radio-station.png -->
             </div>
         </section>
 
-        <!-- RESEARCH -->
         <section>
             <div class="container">
-                <h2>Research and Inspiration</h2>
-                <div class="content-with-media">
-                    <div>
-                        <p>
-                            I researched why miscommunication occurs, how it affects relationships,
-                            and how games can communicate those ideas through storytelling and mechanics.
-                        </p>
-                        <ul>
-                            <li><strong>Communication:</strong> Raymond Cohen's work on cultural differences in meaning, Boaz Keysar's research on egocentric communication, and research on repairing misunderstandings.</li>
-                            <li><strong>Game mechanics:</strong> <em>Chants of Sennaar</em> and <em>7 Days to End with You</em> inspired my initial language-based puzzle concept.</li>
-                            <li><strong>Storytelling:</strong> I studied <em>VA-11 HALL-A</em> for its character writing and <em>Dredge</em> for its pacing and environmental storytelling.</li>
-                        </ul>
-                    </div>
-                    <!-- Media planned: assets/waves-in-air/waves-concept-art.png. Add an image and caption when available. -->
+                <h2>Development</h2>
+                <div class="project-feature-grid">
+                    <article class="card">
+                        <h3>Event System</h3>
+                        <p>Built custom Godot signals to connect interactions, puzzle completion, and story progression.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Click-to-Move Navigation</h3>
+                        <p>Prototyped pathfinding in a test scene, then adjusted navigation regions and spacing to fix movement issues.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Scope and Story</h3>
+                        <p>Cut an ambitious fictional-language system to focus on environmental puzzles. Reworked the narrative after mentor feedback, refining the theme alongside the mechanics.</p>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <!-- CHALLENGES -->
         <section class="alternate">
             <div class="container">
-                <h2>Development Challenges</h2>
-
-                <article class="card project-challenge">
-                    <h3>1. Managing Scope</h3>
-                    <ul>
-                        <li><strong>Challenge:</strong> I originally planned several fictional languages and translation puzzles, but designing and implementing them wasn't realistic in three months.</li>
-                        <li><strong>Approach:</strong> I listed the allowances and constraints of the language system and realized it wasn't necessary for the message I wanted to convey.</li>
-                        <li><strong>What I learned:</strong> Keep a realistic scope and don't hesitate to cut overambitious goals.</li>
-                    </ul>
-                </article>
-
-                <article class="card project-challenge">
-                    <h3>2. Event-Driven Game Progression</h3>
-                    <div class="content-with-media">
-                        <div>
-                            <ul>
-                                <li><strong>Challenge:</strong> I needed puzzles to progress as players explored and interacted with the world—something unfamiliar from my earlier platformer projects.</li>
-                                <li><strong>Approach:</strong> I remembered Scratch's message system, researched Godot signals, and designed a suite of custom signals to manage player progress.</li>
-                                <li><strong>What I learned:</strong> Use prior experience to learn new tools and approach systems from the top down.</li>
-                            </ul>
-                        </div>
-                        <!-- Media planned: assets/waves-in-air/waves-signals.png. Add an image and caption when available. -->
-                    </div>
-                </article>
-
-                <article class="card project-challenge">
-                    <h3>3. Building Click-to-Move Navigation</h3>
-                    <div class="content-with-media">
-                        <div>
-                            <ul>
-                                <li><strong>Challenge:</strong> Unlike my earlier games, I wanted movement to be simple so players could focus on the puzzles and narrative.</li>
-                                <li><strong>Approach:</strong> I studied guides, built a test area, and gradually added obstacles and interactions. I debugged navigation issues and adjusted overlapping regions and spacing.</li>
-                                <li><strong>What I learned:</strong> Prototype unfamiliar systems and introduce complexity one piece at a time.</li>
-                            </ul>
-                        </div>
-                        <!-- Media planned: assets/waves-in-air/waves-navigation.gif. Add an image and caption when available. -->
-                    </div>
-                </article>
-
-                <article class="card project-challenge">
-                    <h3>4. Strengthening the Narrative</h3>
-                    <div class="content-with-media">
-                        <div>
-                            <ul>
-                                <li><strong>Challenge:</strong> After several drafts, I knew something was wrong with my story but couldn't identify what was missing.</li>
-                                <li><strong>Approach:</strong> My mentor pointed out that the individual elements were strong but lacked an overarching structure. I reorganized and rewrote the narrative.</li>
-                                <li><strong>What I learned:</strong> When independent iteration stops helping, seeking feedback can reveal what you've overlooked.</li>
-                            </ul>
-                        </div>
-                        <!-- Media planned: assets/waves-in-air/waves-dialogue.png. Add an image and caption when available. -->
-                    </div>
-                </article>
+                <h2>Research and Influences</h2>
+                <p>
+                    Research by Raymond Cohen and Boaz Keysar informed the communication themes.
+                    <em>Chants of Sennaar</em> and <em>7 Days to End with You</em> inspired the early language-puzzle concept;
+                    <em>VA-11 HALL-A</em> and <em>Dredge</em> influenced the writing and pacing.
+                </p>
             </div>
         </section>
 
-        <!-- OUTCOME -->
         <section>
             <div class="container">
-                <h2>Outcome</h2>
+                <h2>Result</h2>
                 <p>
-                    I completed a playable puzzle game combining research, writing, art, and programming.
-                    More importantly, the project taught me to manage scope, learn unfamiliar systems,
-                    and revise my work without losing sight of its original message.
+                    Completed a playable game and a narrative write-up. Communication remained the central theme,
+                    while the story and puzzles brought empathy and understanding others' circumstances into sharper focus.
                 </p>
-                <p class="project-note">I also prepared a narrative write-up and a playable build for my Keystone submission.</p>
-                <!-- Once the files are available, you can add:
-                <div class="page-actions">
-                    <a href="assets/waves-in-air/waves-narrative.pdf" target="_blank" rel="noopener noreferrer">Read narrative (PDF)</a>
-                    <a href="YOUR_GITHUB_RELEASE_URL">Play / download the game</a>
-                </div>
-                -->
-                <a href="index.html#projects">&larr; Back to Projects</a>
+            </div>
+        </section>
+
+        <section class="project-return" aria-label="Return to portfolio">
+            <div class="container">
+                <a class="button return-to-projects" href="index.html#projects">← Return to Projects</a>
             </div>
         </section>
     </main>
