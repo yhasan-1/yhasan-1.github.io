@@ -334,3 +334,9 @@ header { border-bottom-color: var(--blush); }
 .experience-visual img { border-color: var(--lilac); }
 .skill-chip:target { background: #E6DAEB; outline-color: var(--charcoal); }
 ::selection { background: var(--lilac); color: var(--ink); }
+
+
+/* Keep gameplay screenshots and dialogue readable at every viewport width. */
+.waves-photo { max-width: 860px; margin: 24px 0; }
+.waves-photo .photo-frame img { max-height: none; }
+.waves-photo figcaption { margin-top: 9px; color: var(--muted); font-size: .89rem; }

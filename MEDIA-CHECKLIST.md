@@ -1,14 +1,16 @@
 # Portfolio media checklist
 
-The HTML already references these filenames. Place your own images in the exact folders listed below. You do not need to send the media to ChatGPT. SEED-E photos and organization logos are already present in the repository. Unavailable Waves in Air screenshots are not displayed until they are added.
+Checked entries are committed media used by the site. Unchecked entries are planned or optional; do not add live HTML references until those files exist. Paths and filename capitalization must match exactly.
 
 ## Waves in Air
-- [ ] `assets/waves-in-air/waves-cover.png` — main environment / cover (also on homepage)
-- [ ] `assets/waves-in-air/waves-radio-station.png` — radio station gameplay
+- [x] `assets/waves-in-air/waves-cover.png` — main environment / cover (also on homepage)
+- [x] `assets/waves-in-air/waves-radio-station.png` — radio station flower bed after watering
 - [ ] `assets/waves-in-air/waves-concept-art.png` — concept art
 - [ ] `assets/waves-in-air/waves-signals.png` — event / signal diagram
 - [ ] `assets/waves-in-air/waves-navigation.gif` — click-to-move
-- [ ] `assets/waves-in-air/waves-dialogue.png` — narrative/dialogue
+- [x] `assets/waves-in-air/waves-dialogue.png` — narrative/dialogue
+- [x] `assets/waves-in-air/waves-opening.png` — opening dialogue on the beach
+- [x] `assets/waves-in-air/waves-flower-bed-before.png` — radio station flower bed before watering
 - [ ] `assets/waves-in-air/waves-gameplay.mp4` — optional video
 - [ ] `assets/waves-in-air/waves-narrative.pdf` — optional narrative write-up
 - [ ] Game build — optional GitHub Release download (not committed as code)
@@ -43,11 +45,12 @@ The HTML already references these filenames. Place your own images in the exact 
 
 ## Notes
 - Exact file names and extensions matter; paths are case-sensitive on GitHub Pages.
-- Currently CSS backgrounds are decorative and leave empty spaces until images exist.
-- For meaningful images, we can later use `<img>` with descriptive alternative text.
+- Waves in Air screenshots use `<img>` with descriptive alternative text and intrinsic dimensions.
+- The cover appears on the homepage and project page; all five supplied screenshots appear on the project page.
 - Keep CMSC330 assignment implementations private under course restrictions.
 
 ## Team photographs — not for publication until cleared
 - [ ] Arena group photo: confirm recognizable subjects are comfortable with public portfolio use and the photographer permits it
 - [ ] Table group photo: confirm recognizable subjects are comfortable with public portfolio use and the photographer permits it
 Neither group photo is linked from the website or included in the prepared media ZIP.
+
