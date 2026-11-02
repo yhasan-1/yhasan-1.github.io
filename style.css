@@ -361,7 +361,7 @@ header { border-bottom-color: var(--blush); }
 .jam-section-lead { max-width: 750px; color: var(--muted); margin: -9px 0 24px; }
 .jam-media {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
-  text-align: center; gap: 9px; padding: 24px; min-width: 0;
+  width: 100%; text-align: center; gap: 9px; padding: 24px; min-width: 0;
   border: 1.5px dashed #BCA7BC; border-radius: 17px;
   background: linear-gradient(135deg, #F6EEF5 0%, #E9DFEC 48%, #F7F3F8 100%);
   color: var(--accent-dark);
