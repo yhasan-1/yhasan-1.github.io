@@ -37,11 +37,19 @@ Checked entries are committed media used by the site. Unchecked entries are plan
 - [ ] `assets/other/denver-transit-map.png` — own transit design image
 - [ ] `assets/other/resume.pdf` — optional public resume; uncomment the resume link in `index.html` once uploaded
 
-## Game jam (not yet featured)
-- [ ] Project title, gameplay concept, team responsibilities
-- [ ] Decide whether to implement slime-shot mechanic
-- [ ] Decide whether finished result merits a featured portfolio card
-- [ ] Capture gameplay / cover, if included
+## Contamination (minigame jam)
+- [x] `contamination.html` — dedicated game jam project page with honest text/media placeholders
+- [x] Homepage game-jam spotlight links to the dedicated page
+- [ ] `assets/contamination/contamination-cover.png` — strong 16:9 gameplay cover for page and homepage
+- [ ] `assets/contamination/contamination-gameplay.mp4` — short optional gameplay recording (use a video poster)
+- [ ] `assets/contamination/contamination-mechanic.png` — screenshot of a key interaction
+- [ ] `assets/contamination/contamination-challenge.png` — another game state or challenge
+- [ ] `assets/contamination/contamination-development.png` — editor screenshot, scene setup, or prototype iteration
+- [ ] Fill in: premise, core game loop, engine/language, team role, individual contributions, jam outcome, team credits and links
+- [ ] Confirm whether to discuss the planned slime-shot mechanic and post-jam changes
+
+**Important:** These media slots use styled HTML placeholders, not missing `<img>` files or generated imagery. Replace with real game media only after committing the files and verifying paths.
+
 
 ## Notes
 - Exact file names and extensions matter; paths are case-sensitive on GitHub Pages.

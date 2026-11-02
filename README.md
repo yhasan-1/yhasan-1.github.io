@@ -14,6 +14,9 @@ A narrative puzzle game made in Godot for my Honors Humanities Keystone project.
 **[SEED-E: Autonomous Seed-Planting Robot](https://yhasan-1.github.io/autonomous-robot.html)**  
 An ENES100 team project. I worked on mechanical design, adapted code for communication between two Arduino boards, and proposed the navigation approach that got the robot through the maze.
 
+**[Contamination](contamination.html)**  
+A team minigame jam project based on the theme of contamination. Its dedicated case-study page has clearly marked placeholders for gameplay media, contributions, and results; the homepage includes a game jam spotlight.
+
 ### Other work
 
 - **Programming Languages and Memory Management:** Lexer, parser, evaluator, type checker, and stack-machine compiler in OCaml, plus garbage collection algorithms in Rust.
@@ -22,7 +25,7 @@ An ENES100 team project. I worked on mechanical design, adapted code for communi
 ## Site files
 
 - `index.html`: Homepage, project summaries, experience, and skills
-- `waves-in-air.html` and `autonomous-robot.html`: Project write-ups
+- `waves-in-air.html`, `autonomous-robot.html`, and `contamination.html`: Project write-ups
 - `style.css`: Layout and styling
 - [`MEDIA-CHECKLIST.md`](MEDIA-CHECKLIST.md): Image and video filenames for the site
 
