@@ -409,3 +409,19 @@ header { border-bottom-color: var(--blush); }
   .jam-home-feature { padding: 19px; }
   .jam-media-hero, .jam-media-wide { min-height: 220px; }
 }
+
+/* Actual Contamination screenshots: preserve the full 16:9 pixel-art frame. */
+.jam-screenshot { min-width: 0; }
+.jam-screenshot-frame {
+  display: block; overflow: hidden; border-radius: 15px;
+  border: 1px solid var(--border); background: var(--lavender-2);
+  padding: 8px; box-shadow: var(--shadow);
+}
+.jam-screenshot-frame img {
+  display: block; width: 100%; height: auto;
+  object-fit: contain; border-radius: 8px;
+  image-rendering: auto;
+}
+.jam-home-image-link { display: block; min-width: 0; }
+.jam-home-image-link:hover .jam-screenshot-frame { border-color: var(--mauve); box-shadow: var(--shadow-hover); }
+.jam-gallery-feature.jam-screenshot { max-width: 1006px; }

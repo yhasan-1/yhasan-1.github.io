@@ -40,15 +40,15 @@ Checked entries are committed media used by the site. Unchecked entries are plan
 ## Contamination (minigame jam)
 - [x] `contamination.html` — dedicated game jam project page with honest text/media placeholders
 - [x] Homepage game-jam spotlight links to the dedicated page
-- [ ] `assets/contamination/contamination-cover.png` — strong 16:9 gameplay cover for page and homepage
+- [x] `assets/contamination/contamination-gameplay.png` — real gameplay screenshot; cover and homepage (web-optimized PNG from user-provided capture)
+- [x] `assets/contamination/contamination-start-screen.png` — real start-screen screenshot in gameplay section (web-optimized PNG from user-provided capture)
 - [ ] `assets/contamination/contamination-gameplay.mp4` — short optional gameplay recording (use a video poster)
-- [ ] `assets/contamination/contamination-mechanic.png` — screenshot of a key interaction
-- [ ] `assets/contamination/contamination-challenge.png` — another game state or challenge
+- [ ] `assets/contamination/contamination-progression.png` — optional stat-growth screen
 - [ ] `assets/contamination/contamination-development.png` — editor screenshot, scene setup, or prototype iteration
 - [ ] Fill in: premise, core game loop, engine/language, team role, individual contributions, jam outcome, team credits and links
 - [ ] Confirm whether to discuss the planned slime-shot mechanic and post-jam changes
 
-**Important:** These media slots use styled HTML placeholders, not missing `<img>` files or generated imagery. Replace with real game media only after committing the files and verifying paths.
+**Media status:** Gameplay and start-screen images are committed and displayed. Remaining optional slots use styled HTML placeholders without broken image references. No AI-generated images.
 
 
 ## Notes
