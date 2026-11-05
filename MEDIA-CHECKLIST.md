@@ -42,6 +42,7 @@ Checked entries are committed media used by the site. Unchecked entries are plan
 - [x] Homepage game-jam spotlight links to the dedicated page
 - [x] `assets/contamination/contamination-gameplay.png` — real gameplay screenshot; cover and homepage (web-optimized PNG from user-provided capture)
 - [x] `assets/contamination/contamination-start-screen.png` — real start-screen screenshot in gameplay section (web-optimized PNG from user-provided capture)
+- [x] Live iframe player at `https://gdc.umd.edu/Fall2026ClubProject/games/team14/index.html` and full-game fallback link (temporary external host; framing compatibility not independently verified)
 - [ ] `assets/contamination/contamination-gameplay.mp4` — short optional gameplay recording (use a video poster)
 - [ ] `assets/contamination/contamination-progression.png` — optional stat-growth screen
 - [ ] `assets/contamination/contamination-development.png` — editor screenshot, scene setup, or prototype iteration
