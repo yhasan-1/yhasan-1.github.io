@@ -40,15 +40,16 @@ Checked entries are committed media used by the site. Unchecked entries are plan
 ## Contamination (minigame jam)
 - [x] `contamination.html` — dedicated game jam project page with honest text/media placeholders
 - [x] Homepage game-jam spotlight links to the dedicated page
-- [ ] `assets/contamination/contamination-cover.png` — strong 16:9 gameplay cover for page and homepage
-- [ ] `assets/contamination/contamination-gameplay.mp4` — short optional gameplay recording (use a video poster)
-- [ ] `assets/contamination/contamination-mechanic.png` — screenshot of a key interaction
-- [ ] `assets/contamination/contamination-challenge.png` — another game state or challenge
-- [ ] `assets/contamination/contamination-development.png` — editor screenshot, scene setup, or prototype iteration
-- [ ] Fill in: premise, core game loop, engine/language, team role, individual contributions, jam outcome, team credits and links
+- [x] `assets/contamination/contamination-gameplay.png` — real gameplay screenshot; cover and homepage (web-optimized PNG from user-provided capture)
+- [x] `assets/contamination/contamination-start-screen.png` — real start-screen screenshot in gameplay section (web-optimized PNG from user-provided capture)
+- [x] Live iframe player at `https://gdc.umd.edu/Fall2026ClubProject/games/team14/index.html` and full-game fallback link (temporary external host; framing compatibility not independently verified)
+- [x] `assets/contamination/contamination-upgrades.png` — real upgrade choice screenshot; Senses is viewing range and Evasion is detection chance
+- [x] Removed unused video and behind-the-scenes image placeholders; user does not want to record gameplay
+- [x] Project text, controls (arrow keys and Z dash), and named team credits (Siraj Khan: programming; Jayce Johnson: art)
+- [ ] Replace temporary UMD-hosted link if a permanent URL becomes available
 - [ ] Confirm whether to discuss the planned slime-shot mechanic and post-jam changes
 
-**Important:** These media slots use styled HTML placeholders, not missing `<img>` files or generated imagery. Replace with real game media only after committing the files and verifying paths.
+**Media status:** Gameplay, start screen, and upgrade selection screenshots are committed and displayed. No AI-generated images or missing image references. No gameplay video required.
 
 
 ## Notes

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Contamination, a collaborative game jam project by Yusuf Hasan. Gameplay, development process, and team contributions.">
   <title>Contamination | Yusuf Hasan</title>
-  <link rel="stylesheet" href="style.css?v=20261102-contamination">
+  <link rel="stylesheet" href="style.css?v=20261105-contamination-play">
 </head>
 <body class="project-page jam-page">
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -31,23 +31,21 @@
             <p class="jam-eyebrow">MINIGAME JAM / TEAM PROJECT</p>
             <h1>Contamination</h1>
             <p class="subtitle">Game jam theme: Contamination</p>
-            <p class="showcase-lead">A collaborative game jam project built around the theme of contamination.</p>
-            <p class="jam-editable">[Add 2–3 sentences about the game's premise, what the player does, and what makes it interesting.]</p>
+            <p class="showcase-lead">A feed-and-grow survival game where you play as a slime mold.</p>
+            <p>Eat oats and bacteria, avoid predators, and survive as long as you can.</p>
             <div class="tag-list project-detail-tags" aria-label="Project details">
               <span class="skill-chip">Game jam</span>
               <span class="skill-chip">Team project</span>
-              <span class="skill-chip">[Engine / language]</span>
+              <a class="skill-tag" href="index.html#skill-godot">Godot</a>
+              <a class="skill-tag" href="index.html#skill-gdscript">GDScript</a>
             </div>
             <a href="#gameplay" class="jam-text-link">Explore gameplay &darr;</a>
           </div>
-          <figure class="jam-hero-media">
-            <div class="jam-media jam-media-hero" role="img" aria-label="Placeholder for a game screenshot or gameplay clip">
-              <span class="jam-media-icon" aria-hidden="true">▧</span>
-              <span class="jam-media-label">GAMEPLAY COVER</span>
-              <span class="jam-media-hint">Add your best screenshot or gameplay clip here</span>
-              <span class="jam-media-format">Suggested: 16:9 image or muted video poster</span>
+          <figure class="jam-hero-media jam-screenshot">
+            <div class="jam-screenshot-frame">
+              <img src="assets/contamination/contamination-gameplay.png" alt="Green player-controlled slime mold surrounded by purple enemy microbes, with food, timer, and stamina indicators" width="1022" height="574" fetchpriority="high">
             </div>
-            <figcaption>Replace with a representative gameplay moment. No generated art is used.</figcaption>
+            <figcaption>The slime mold navigating among larger microbes.</figcaption>
           </figure>
         </div>
       </div>
@@ -60,12 +58,12 @@
           <p>Quick context before the gameplay and technical details.</p>
         </div>
         <div class="jam-facts">
-          <div class="jam-fact"><span class="jam-fact-label">Event</span><strong>Minigame Jam</strong></div>
+          <div class="jam-fact"><span class="jam-fact-label">Event / duration</span><strong>Minigame Jam · approx. 2 weeks</strong></div>
           <div class="jam-fact"><span class="jam-fact-label">Theme</span><strong>Contamination</strong></div>
-          <div class="jam-fact"><span class="jam-fact-label">Team &amp; role</span><strong>[Add your role]</strong></div>
-          <div class="jam-fact"><span class="jam-fact-label">Tools &amp; timeline</span><strong>[Add details]</strong></div>
+          <div class="jam-fact"><span class="jam-fact-label">Team &amp; role</span><strong>Programmer · 3-person team (2 programmers, 1 artist)</strong></div>
+          <div class="jam-fact"><span class="jam-fact-label">Tools</span><strong>Godot / GDScript</strong></div>
         </div>
-        <p class="jam-editable jam-overview-note">[Summarize the core gameplay loop: What does the player do repeatedly? What is the goal? How does contamination affect play?]</p>
+        <p class="jam-overview-note">Reaching a food milestone resets the timer. Missing one costs some health, then the timer restarts.</p>
       </div>
     </section>
 
@@ -73,32 +71,41 @@
       <div class="container">
         <div class="jam-section-heading">
           <div><p class="jam-eyebrow">02 / IN ACTION</p><h2>Gameplay</h2></div>
-          <p>Use real gameplay captures, not concept art, so visitors can see the game itself.</p>
+          <p>Play the UMD Game Developers Club build, or view screenshots below.</p>
         </div>
-        <figure class="jam-gallery-feature">
-          <div class="jam-media jam-media-wide" role="img" aria-label="Placeholder for a gameplay video or full-size screenshot">
-            <span class="jam-media-icon" aria-hidden="true">▣</span>
-            <span class="jam-media-label">MAIN GAMEPLAY VIDEO / SCREENSHOT</span>
-            <span class="jam-media-hint">Show the core mechanic in action</span>
+        <div class="jam-play" id="play">
+          <h3>Play Contamination</h3>
+          <p>Click inside the game to focus it. Use the arrow keys to move and Z to dash.</p>
+          <div class="jam-embed-frame">
+            <iframe
+              src="https://gdc.umd.edu/Fall2026ClubProject/games/team14/index.html"
+              title="Play Contamination: UMD minigame jam"
+              width="1024"
+              height="576"
+              loading="lazy"
+              allow="fullscreen; gamepad"
+              allowfullscreen
+              referrerpolicy="strict-origin-when-cross-origin"
+            ></iframe>
           </div>
-          <figcaption>[Explain what this gameplay moment demonstrates.]</figcaption>
-        </figure>
+          <div class="jam-play-actions">
+            <a class="button" href="https://gdc.umd.edu/Fall2026ClubProject/games/team14/index.html" target="_blank" rel="noopener noreferrer">Open Full Game &rarr;</a>
+            <p class="project-note">Temporary UMD-hosted link. If the game doesn't load here, open it in a new tab.</p>
+          </div>
+        </div>
+        <h3 class="jam-captures-title">Screenshots</h3>
         <div class="jam-gallery-grid">
-          <figure>
-            <div class="jam-media jam-media-small" role="img" aria-label="Placeholder for screenshot of a player interaction">
-              <span class="jam-media-icon" aria-hidden="true">▧</span>
-              <span class="jam-media-label">SCREENSHOT 02</span>
-              <span class="jam-media-hint">Player interaction / game mechanic</span>
-            </div>
-            <figcaption>[Caption: what the player is doing.]</figcaption>
+          <figure class="jam-screenshot">
+            <a class="jam-screenshot-frame" href="assets/contamination/contamination-start-screen.png" target="_blank" rel="noopener noreferrer" aria-label="View full-size Contamination start screen">
+              <img src="assets/contamination/contamination-start-screen.png" alt="Start screen with growth milestone instructions, Begin button, and difficulty selector" width="1006" height="568" loading="lazy">
+            </a>
+            <figcaption>Start screen with instructions and difficulty selection.</figcaption>
           </figure>
-          <figure>
-            <div class="jam-media jam-media-small" role="img" aria-label="Placeholder for screenshot of a different gameplay state">
-              <span class="jam-media-icon" aria-hidden="true">▧</span>
-              <span class="jam-media-label">SCREENSHOT 03</span>
-              <span class="jam-media-hint">Different level, state, or challenge</span>
-            </div>
-            <figcaption>[Caption: what changed, or what makes this moment interesting.]</figcaption>
+          <figure class="jam-screenshot">
+            <a class="jam-screenshot-frame" href="assets/contamination/contamination-upgrades.png" target="_blank" rel="noopener noreferrer" aria-label="View full-size Contamination upgrade selection">
+              <img src="assets/contamination/contamination-upgrades.png" alt="Upgrade choice menu labeled Grow Stronger, with Senses, Evasion, and Stamina upgrade buttons" width="1277" height="711" loading="lazy">
+            </a>
+            <figcaption>Food milestones unlock upgrades: Senses affects viewing range, while Evasion affects detection chance.</figcaption>
           </figure>
         </div>
       </div>
@@ -113,17 +120,17 @@
           <article class="card">
             <span class="jam-card-number">01</span>
             <h3>The concept</h3>
-            <p class="jam-editable">[How did the team interpret “contamination”? What was the initial gameplay idea?]</p>
+            <p>The jam theme was “Contamination.” Videos featuring a slime mold named Jerry inspired the creature, while someone else suggested the feed-and-grow format.</p>
           </article>
           <article class="card">
             <span class="jam-card-number">02</span>
-            <h3>Building the prototype</h3>
-            <p class="jam-editable">[Describe one concrete system or interaction your team implemented. Include your own work.]</p>
+            <h3>Progression system</h3>
+            <p>Eating advanced food checkpoints. Depending on the checkpoint, players chose a stat upgrade or gained an ability. In the upgrade menu, Senses affects viewing range and Evasion affects detection chance.</p>
           </article>
           <article class="card">
             <span class="jam-card-number">03</span>
-            <h3>Scope and trade-offs</h3>
-            <p class="jam-editable">[Explain a feature that changed or was cut for the jam deadline. If useful, discuss the planned slime-shot mechanic.]</p>
+            <h3>Planned versus implemented</h3>
+            <p>Dash was implemented; the planned slime-shooting ability did not make it into the jam build.</p>
           </article>
         </div>
       </div>
@@ -138,21 +145,15 @@
         <div class="jam-contribution-grid">
           <article class="jam-contribution">
             <h3>What I built</h3>
-            <p class="jam-editable">[Identify 1–2 systems, scenes, assets, or mechanics you personally designed or implemented. Name the tools used.]</p>
+            <p>Programmed movement, dashing, and enemy behavior. Built food-based checkpoints with choices to upgrade size, speed, stamina cooldown, detection chance, or viewing range.</p>
           </article>
           <article class="jam-contribution">
-            <h3>Challenges and collaboration</h3>
-            <p class="jam-editable">[Describe a specific bug, design decision, iteration, or teammate handoff — and how you approached it.]</p>
+            <h3>Enemy AI &amp; spawning</h3>
+            <p>I designed shared detection and size checks, with different reactions for each enemy type. Pill bacteria sought oats and fled larger microbes; spider microbes chased smaller microbes and fled larger ones.</p>
+            <p>Detection chance determined whether an enemy reacted. I adapted a teammate’s food-spawning script for enemy spawns.</p>
           </article>
         </div>
-        <figure class="jam-process-figure">
-          <div class="jam-media jam-media-process" role="img" aria-label="Placeholder for game development evidence such as editor screenshot, sketch, or scene graph">
-            <span class="jam-media-icon" aria-hidden="true">▤</span>
-            <span class="jam-media-label">BEHIND THE SCENES</span>
-            <span class="jam-media-hint">Editor view, scene setup, whiteboard sketch, or iteration comparison</span>
-          </div>
-          <figcaption>[Explain this design or development artifact and how it relates to your work.]</figcaption>
-        </figure>
+
       </div>
     </section>
 
@@ -163,16 +164,17 @@
         <div class="jam-outcome-grid">
           <div>
             <h3>What we finished</h3>
-            <p class="jam-editable">[State what was playable or demonstrated at the end of the jam. Avoid implying unfinished ideas were shipped.]</p>
+            <p>The game was playable, but enemy AI behaved inconsistently and excessive spawns made survival feel repetitive. There was also no sound feedback.</p>
           </div>
           <div>
             <h3>What I'd improve</h3>
-            <p class="jam-editable">[Describe one or two changes you'd make after the jam, and why.]</p>
+            <p>Fix the enemy behaviors, rebalance spawn rates, and add sound effects to make gameplay more engaging and responsive.</p>
           </div>
         </div>
         <div class="jam-links-note">
-          <strong>Project links</strong>
-          <p>[Add an itch.io / playable build link, GitHub repository, and team credits here if appropriate. Do not publish links until they work.]</p>
+          <strong>Play &amp; team</strong>
+          <p><a href="https://gdc.umd.edu/Fall2026ClubProject/games/team14/index.html" target="_blank" rel="noopener noreferrer">Play the UMD-hosted build</a> (temporary link).</p>
+          <p><strong>Programming:</strong> Yusuf Hasan and Siraj Khan &middot; <strong>Art:</strong> Jayce Johnson</p>
         </div>
       </div>
     </section>

@@ -15,7 +15,7 @@ A narrative puzzle game made in Godot for my Honors Humanities Keystone project.
 An ENES100 team project. I worked on mechanical design, adapted code for communication between two Arduino boards, and proposed the navigation approach that got the robot through the maze.
 
 **[Contamination](contamination.html)**  
-A team minigame jam project based on the theme of contamination. Its dedicated case-study page has clearly marked placeholders for gameplay media, contributions, and results; the homepage includes a game jam spotlight.
+A team minigame jam project based on the theme of contamination. The project page and homepage show real gameplay screenshots, with optional placeholders for additional media and a playable build link.
 
 ### Other work
 
