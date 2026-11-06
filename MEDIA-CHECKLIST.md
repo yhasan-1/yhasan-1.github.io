@@ -43,14 +43,13 @@ Checked entries are committed media used by the site. Unchecked entries are plan
 - [x] `assets/contamination/contamination-gameplay.png` — real gameplay screenshot; cover and homepage (web-optimized PNG from user-provided capture)
 - [x] `assets/contamination/contamination-start-screen.png` — real start-screen screenshot in gameplay section (web-optimized PNG from user-provided capture)
 - [x] Live iframe player at `https://gdc.umd.edu/Fall2026ClubProject/games/team14/index.html` and full-game fallback link (temporary external host; framing compatibility not independently verified)
-- [ ] `assets/contamination/contamination-gameplay.mp4` — short optional gameplay recording (use a video poster)
-- [ ] `assets/contamination/contamination-progression.png` — optional stat-growth screen
-- [ ] `assets/contamination/contamination-development.png` — editor screenshot, scene setup, or prototype iteration
+- [x] `assets/contamination/contamination-upgrades.png` — real upgrade choice screenshot; Senses is viewing range and Evasion is detection chance
+- [x] Removed unused video and behind-the-scenes image placeholders; user does not want to record gameplay
 - [x] Project text, controls (arrow keys and Z dash), and named team credits (Siraj Khan: programming; Jayce Johnson: art)
 - [ ] Replace temporary UMD-hosted link if a permanent URL becomes available
 - [ ] Confirm whether to discuss the planned slime-shot mechanic and post-jam changes
 
-**Media status:** Gameplay and start-screen images are committed and displayed. Remaining optional slots use styled HTML placeholders without broken image references. No AI-generated images.
+**Media status:** Gameplay, start screen, and upgrade selection screenshots are committed and displayed. No AI-generated images or missing image references. No gameplay video required.
 
 
 ## Notes
