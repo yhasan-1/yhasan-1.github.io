@@ -46,7 +46,8 @@ Checked entries are committed media used by the site. Unchecked entries are plan
 - [ ] `assets/contamination/contamination-gameplay.mp4` — short optional gameplay recording (use a video poster)
 - [ ] `assets/contamination/contamination-progression.png` — optional stat-growth screen
 - [ ] `assets/contamination/contamination-development.png` — editor screenshot, scene setup, or prototype iteration
-- [ ] Fill in: premise, core game loop, engine/language, team role, individual contributions, jam outcome, team credits and links
+- [x] Project text, controls (arrow keys and Z dash), and named team credits (Siraj Khan: programming; Jayce Johnson: art)
+- [ ] Replace temporary UMD-hosted link if a permanent URL becomes available
 - [ ] Confirm whether to discuss the planned slime-shot mechanic and post-jam changes
 
 **Media status:** Gameplay and start-screen images are committed and displayed. Remaining optional slots use styled HTML placeholders without broken image references. No AI-generated images.
